@@ -1,0 +1,26 @@
+site_name: MkDocs Test
+repo_name: BetterThanReal/mkdocs-test
+repo_url: https://github.com/BetterThanReal/mkdocs-test
+site_url: https://betterthanreal.github.io/mkdocs-test/1.0.0/
+
+theme:
+  name: material
+  palette:
+    primary: 'Light Blue'
+    accent: 'Light Blue'
+    scheme: preference
+
+nav:
+  - Overview: index.md
+  - Source:
+      - Changelog: changelog.md
+      - License: license.md
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.superfences
