@@ -3,6 +3,9 @@
 ## [1.0.0](https://betterthanreal.github.io/mkdocs-test/1.0.0) (2021-05-25)
 Initial release.
 
+[License](./license.md)
+[subdir test](./subdir/test.md)
+
 #### Added
 - Everything.  Hello, world!
 
